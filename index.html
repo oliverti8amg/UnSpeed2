@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnSpeed Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>UnSpeed Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" data-section="servidores">Servidores</a></li>
+                    <li><a href="#" data-section="consolas">Consolas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Sección Servidores -->
+        <section id="servidores" class="section">
+            <h2>Servidores</h2>
+            <div class="button-group">
+                <button data-category="discord">Servidores de Discord</button>
+                <button data-category="minecraft">Servidores de Minecraft</button>
+                <button data-category="fivem">Servidores de FiveM</button>
+            </div>
+            <div id="discord" class="category">
+                <div class="product">
+                    <img src="img/discord.png" alt="Servidor de Discord" style="height: 50px;">
+                    <h4>Servidor de Discord</h4>
+                    <p>Obten un servidor de discord personalizado.</p>
+                    <p>Este servidor de discord cuenta con las siguientes configuraciones:</p>
+                    <p>Plantilla del servidor: <a href="https://previewdc.unspeed.shop" target="_blank"><b>VISITAR SERVIDOR</b></a></p>
+                    <p>Configuración de 5 bots esenciales.</p>
+                    <p>Ayuda postventa de configuración de discord.</p>
+                    <!-- Botón de PayPal -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="lkvaldivia00@gmail.com">
+                        <input type="hidden" name="item_name" value="serverdc">
+                        <input type="hidden" name="amount" value="6.70">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://store.unspeed.shop">
+                        <button type="submit">Comprar a 6,70 €</button>
+                    </form>
+                </div>
+            </div>
+            <div id="minecraft" class="category">
+                <div class="product">
+                    <img src="img/minecraft.png" alt="Servidor de Discord" style="height: 50px;">
+                    <h4>Servidor de Minecraft</h4>
+                    <p>Obten un servidor de Minecraft personalizado.</p>
+                    <p>Configuraciones avanzadas y personalizadas.</p>
+                    <!-- Botón de PayPal -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="lkvaldivia00@gmail.com">
+                        <input type="hidden" name="item_name" value="Servidor de Minecraft Survival">
+                        <input type="hidden" name="amount" value="350.99">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://store.unspeed.shop">
+                        <button type="submit">Comprar a 350.99 €</button>
+                    </form>
+                </div>
+            </div>
+            <div id="fivem" class="category">
+                <div class="product">
+                    <img src="img/fivem.png" alt="Servidor de Discord" style="height: 50px;">
+                    <h4>Servidor de FiveM Roleplay</h4>
+                    <p>Obten un servidor de FiveM personalizado.</p>
+                    <p>Configuración avanzada para roleplay.</p>
+                    <!-- Botón de PayPal -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="lkvaldivia00@gmail.com">
+                        <input type="hidden" name="item_name" value="Servidor de FiveM Roleplay">
+                        <input type="hidden" name="amount" value="269.99">
+                        <input type="hidden" name="currency_code" value="EUR">
+                        <input type="hidden" name="return" value="https://store.unspeed.shop">
+                        <button type="submit">Comprar a 269.99 €</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Consolas -->
+        <section id="consolas" class="section">
+            <h2>Consolas</h2>
+            <div class="button-group">
+                <button data-category="playstation">PlayStation</button>
+                <button data-category="xbox">Xbox</button>
+            </div>
+            <div id="playstation" class="category">
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/PlayStation_5_Logo.png" alt="PlayStation">
+                    <h4>PlayStation 5</h4>
+                    <p>Consigue la última PlayStation 5.</p>
+                    <!-- Botón de Redirección -->
+                    <a href="ENLACE_DE_COMPRA_PLAYSTATION" class="buy-button" target="_blank">Comprar</a>
+                </div>
+            </div>
+            <div id="xbox" class="category">
+                <div class="product">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Xbox_Series_X_logo.png" alt="Xbox">
+                    <h4>Xbox Series X</h4>
+                    <p>Consigue la última Xbox Series X.</p>
+                    <!-- Botón de Redirección -->
+                    <a href="ENLACE_DE_COMPRA_XBOX" class="buy-button" target="_blank">Comprar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
